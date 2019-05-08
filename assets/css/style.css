@@ -1,0 +1,92 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+
+h1 {
+    font-size: 43px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: 'Bungee Inline', cursive;
+}
+
+h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(61, 58, 58);
+}
+
+#head2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h3 {
+    color: rgb(61, 58, 58)
+}
+
+img {
+    margin: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+#logo {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 0;
+}
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Bungee', sans-serif;
+    font-size: 12px;
+}
+
+span {
+    padding-left: 3px;
+    padding-right:3px;
+    font-size: 15px;
+
+}
+
+.container {
+    background-image: url("../images/luvyoselff.jpg");
+    border-radius: 25px;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    margin-right: 10%;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+    text-align: center;
+    float: right;
+   
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    padding: 20px;
+}

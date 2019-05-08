@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BTS GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline" rel="stylesheet">
+    <link rel="icon" href="https://icon2.kisspng.com/20180810/wvy/kisspng-bts-logo-k-pop-design-image-bts-sticker-by-edits-from-bts-5b6db8d5f395b3.0957594915339173979977.jpg"> 
+</head>
+
+    <body>
+        <!--Main Heading-->
+        <div class="heading">
+            <h1>BTS Word Guess Game</h1>
+            <h2 id="head2">Press Any Key To Guess The Song!</h2>
+        </div>
+
+        <div>
+            <img id="image" src="./assets/images/main.png" width="40%" height="200">
+        </div>
+            
+            <div class="container">
+                <!--Current Word Container-->
+                <div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+                    <!--Guesses left Container-->
+                    <div class="sidebar">
+                        <h3>GUESSES LEFT:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wins counter Container-->
+                    <div class="sidebar">
+                        <h3>WINS:
+                            <span id="winstracker"></span>
+                        </h3>
+                    </div>
+                    <!--Loss counter Container-->
+                    <div class="sidebar">
+                        <h3>LOSSES:
+                            <span id="losstracker"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wrong guesses container-->
+                    <div class="sidebar">
+                        <h3>LETTERS YOU GUESSED WRONG:
+                            <span id="playerguesses"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--AUDIO FILES-->
+        <div>
+            <!--Silver Spoon-->
+            <audio id="silverspoon">
+                <source src="assets/audio/silverspoon.mp3" type="audio/mp3">
+            </audio>
+            <!--Fake Love-->
+            <audio id="fakelove">
+                <source src="assets/audio/fakelove.mp3" type="audio/mp3">
+            </audio>
+            <!--Dionysus-->
+            <audio id="dionysus">
+                <source src="assets/audio/dionysus.mp3" type="audio/mp3">
+            </audio>
+            <!--Serendipity-->
+            <audio id="serendipity">
+                <source src="assets/audio/serendipity.mp3" type="audio/mp3">
+            </audio>
+            <!--Mikrokosmos-->
+            <audio id="mikrokosmos">
+                <source src="assets/audio/mikrokosmos.mp3" type="audio/mp3">
+            </audio>
+            <!--Paradise-->
+            <audio id="paradise">
+                <source src="assets/audio/paradise.mp3" type="audio/mp3">
+            </audio>
+            <!--Best of Me-->
+            <audio id="bestofme">
+                <source src="assets/audio/bestofme.mp3" type="audio/mp3">
+            </audio>
+            <!--Mic Drop-->
+            <audio id="micdrop">
+                <source src="assets/audio/micdrop.mp3" type="audio/mp3">
+            </audio>
+            <!--Anpanman-->
+            <audio id="anpanman">
+                <source src="assets/audio/anpanman.mp3" type="audio/mp3">
+            </audio>
+            <!--Boy With Luv-->
+            <audio id="boywithluv">
+                <source src="assets/audio/boywithluv.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+
+
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
